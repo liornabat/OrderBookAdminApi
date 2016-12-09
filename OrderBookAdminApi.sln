@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.25928.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5F8EC73F-C303-4219-8F0A-EA4CB4B63A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderBookAdminApi", "src\OrderBookAdminApi\OrderBookAdminApi.csproj", "{39475680-BFF4-4543-94C2-07954D8C965C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC936FB2-B181-4C72-B1F9-1B9034D40F77}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.ci.build.yml = docker-compose.ci.build.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39475680-BFF4-4543-94C2-07954D8C965C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39475680-BFF4-4543-94C2-07954D8C965C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39475680-BFF4-4543-94C2-07954D8C965C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39475680-BFF4-4543-94C2-07954D8C965C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39475680-BFF4-4543-94C2-07954D8C965C} = {5F8EC73F-C303-4219-8F0A-EA4CB4B63A9D}
+	EndGlobalSection
+EndGlobal
